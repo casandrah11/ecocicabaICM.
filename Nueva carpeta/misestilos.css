@@ -1,0 +1,354 @@
+*{
+
+margin:0px;
+ padding:0px;
+ font-family: Century Gothic; 
+
+}
+
+
+
+p#header
+{
+	
+text-align: center;
+	
+font-size: 2.5em;
+	
+color:#9a9a9a;
+
+}
+
+
+p#subheader
+{
+	
+text-align: center;
+	
+color:#cecece;
+	
+margin-top:20px;
+	
+font-size: 1.3em;
+}
+
+
+header
+{
+	
+margin:50px auto;
+	
+width:1200px;
+	
+height:130px;
+	
+background-color: red;
+
+}
+
+
+div.contenedor
+{
+	
+width: 220px;
+	
+height: 120px;
+	
+float:left;
+	
+-webkit-transition: height .4s;
+
+}
+
+
+div#uno
+{
+background-color: rgb(208,101,3);
+}
+div#dos
+{
+	
+background-color: rgb(233,147,26);
+
+}
+
+
+div#tres
+{
+	
+background-color:#3399ff ;
+
+}
+
+
+div#cuatro
+{
+	
+background-color:rgb(22,107,162);
+}
+
+
+
+
+div#seis
+{
+	
+background-color:rgb(22,145,190);
+
+}
+
+
+
+
+img.icon
+{
+	
+display: block;
+	
+margin:5px auto;
+	
+background-color: rgba(255,255,255,.15);
+	
+width:50px;
+	
+padding:30px;
+	
+-webkit-border-radius: 50%;
+	
+-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+
+-webkit-transition:box-shadow .4s;
+
+}
+
+
+p.texto
+{
+	
+font-size: 1.2em;
+	
+color:white;
+	
+text-align: center;
+	
+padding-top:0px;
+	
+opacity: .6;
+	
+-webkit-transition: padding-top .1s;
+
+}
+
+
+div.contenedor:hover
+{
+
+height:150px;
+
+}
+
+
+div.contenedor:hover p.texto
+{
+	
+padding-top: 10px;
+	opacity: 1;
+
+}
+
+
+div.contenedor:hover img.icon
+{
+	
+-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+h1 {
+   color: #fff;
+   text-aling: center;
+   font-family: Century Gothic;
+
+}
+
+/*Estilos de galeria*/
+
+.galeria {
+   width: 90%;
+   margin: auto;
+   list-style: none;
+   padding: 100px;
+   box-sizing: border-box;
+
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+
+}
+
+.galeria li {
+   margin: 0px;
+  
+}
+
+.galeria img {
+   width: 350px;
+   height: 250px;
+
+}
+
+/*Estilos del modal*/
+
+.modal {
+   display: none;
+
+}
+
+
+.modal:target {
+    display: block;
+    position: fixed;
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.modal h3 {
+   color: #fff;
+   font-size: 30px;
+   text-align: center;
+   margin: 0px 0;
+
+}
+
+.imagen {
+    width: 100%;
+    height: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.imagen a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+
+.imagen a:nth-child(2) {
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+
+}
+
+.imagen img {
+    width: 500px;
+    heigth: 100px;
+    max-width: 100%;
+    border: 0px solid #fff;
+    box-sizing: border-box;
+}
+
+.cerrar {
+   display: block;
+   background: #fff;
+   width: 25px;
+   height: 25px;
+   margin: 10px auto;
+   text-align: center;
+   text-decoration: none;
+   font-size: 25px;
+   color: #000;
+   padding: 5px;
+   border-radius: 50%;
+   line-height: 25px;
+
+
+} 
